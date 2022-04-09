@@ -1,0 +1,23 @@
+[PROJECT]
+Target=ýsý kontrol 1.hex
+Processor_Text=PIC12F675
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=ýsý kontrol 1.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;C:\Users\can\Documents\
+[C:\Users\can\Documents\ýsý kontrol 1]
+Type=4
+[mru-list]
+1=ýsý kontrol 1.c
+[Opened Files]
+1=ýsý kontrol 1.c
+2=
+3=
+[ýsý kontrol 1.c]
+Type=4
+[Units]
+Count=1
+1=ýsý kontrol 1 (main)

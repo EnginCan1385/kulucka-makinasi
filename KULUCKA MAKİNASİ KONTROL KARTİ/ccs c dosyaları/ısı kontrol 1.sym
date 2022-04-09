@@ -1,0 +1,92 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+019.6   C1OUT
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C-02D sayac
+02E-02F adc_giris
+030-033 sicaklik
+034-037 voltaj
+038-03B @DIVFF.P1
+038-039 @ITOF.P2
+038     MAIN.@SCRATCH1
+039     MAIN.@SCRATCH2
+03A     MAIN.@SCRATCH3
+03B     MAIN.@SCRATCH4
+03C-03F @MULFF.P1
+03C-03F @DIVFF.P2
+040-043 @MULFF.P1
+040     @DIVFF.@SCRATCH1
+041     @DIVFF.@SCRATCH2
+042     @DIVFF.@SCRATCH3
+043     @DIVFF.@SCRATCH4
+044     @MULFF.@SCRATCH1
+044     @DIVFF.@SCRATCH5
+045     @MULFF.@SCRATCH2
+045     @DIVFF.@SCRATCH6
+046     @MULFF.@SCRATCH3
+047     @MULFF.@SCRATCH4
+048     @MULFF.@SCRATCH5
+049-04C @FLT.P1
+049     RTCC_isr.i
+04A     RTCC_isr.@SCRATCH1
+04B     @delay_ms1.P1
+04D-050 @FLT.P1
+051     @FLT.@SCRATCH1
+052     @FLT.@SCRATCH2
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+00003C  @delay_ms1
+000050  RTCC_isr
+000078  AD_isr
+000086  @FLT
+0000D8  @ITOF
+0000F5  @MULFF
+00016A  @DIVFF
+000234  @cinit1
+000234  MAIN
+000249  @cinit2
+
+Project Directory:
+    C:\Users\can\Documents\
+
+Project Files:
+    ýsý kontrol 1.c                                         [09-Nis-22 15:39  CRC=D37CFE71]
+    ýsý kontrol 1.h                                         [09-Nis-22 12:59  CRC=D872A938]
+    ..\..\..\Program Files (x86)\PICC\Devices\12F675.h      [21-Haz-13 16:04  CRC=0A49C2E3]
+
+Source signature=C0832D6F
+
+Units:
+    ýsý kontrol 1 (main)
+
+Compiler Settings:
+    Processor:      PIC12F675
+    Pointer Size:   8
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   ýsý kontrol 1.xsym
+    Errors:      ýsý kontrol 1.err
+    Ext Symbols: ýsý kontrol 1.esym
+    INHX8:       ýsý kontrol 1.hex
+    Symbols:     ýsý kontrol 1.sym
+    List:        ýsý kontrol 1.lst
+    Debug/COFF:  ýsý kontrol 1.cof
+    Project:     ýsý kontrol 1.ccspjt
+    Call Tree:   ýsý kontrol 1.tre
+    Statistics:  ýsý kontrol 1.STA
